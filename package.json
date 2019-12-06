@@ -4,7 +4,8 @@
   "description": "JavaScript development environment Pluralsight course by Cory House",
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
-    "start": "node buildScripts/srcServer.js"
+    "start": "node buildScripts/srcServer.js",
+    "devshare": "lt --port 14567"
   },
   "author": "Howard Bash",
   "license": "MIT",
