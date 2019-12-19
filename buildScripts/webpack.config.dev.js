@@ -15,7 +15,7 @@ export default {
 	module: {
 		rules: [
 			{ test: /\.js$/, exclude: /node_modules/, loaders: [ 'babel' ] },
-			{ test: /\.css$/, use: [ 'css-loader' ] }
+			{ test: /\.css$/, loaders: [ 'style', 'css' ] }
 		]
 	}
 };
